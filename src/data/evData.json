@@ -1,0 +1,56 @@
+{
+    "totalVehicles": 3456,
+    "totalRevenue": 45200000,
+    "totalChargingStations": 245,
+    "totalUsers": 7860,
+    "revenueData": {
+      "labels": ["Sep", "Oct", "Nov", "Dec", "Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug"],
+      "datasets": [
+        {
+          "label": "Total Revenue ($)",
+          "data": [30000, 45000, 35000, 50000, 55000, 60000, 70000, 75000, 85000, 90000, 95000, 100000],
+          "borderColor": "#4F46E5",
+          "backgroundColor": "rgba(79, 70, 229, 0.2)",
+          "fill": true
+        },
+        {
+          "label": "Total Charging Sessions",
+          "data": [2500, 3000, 2800, 3500, 4000, 4500, 4800, 5200, 5500, 6000, 6300, 6800],
+          "borderColor": "#10B981",
+          "backgroundColor": "rgba(16, 185, 129, 0.2)",
+          "fill": true
+        }
+      ]
+    },
+    "profitData": {
+      "labels": ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"],
+      "datasets": [
+        {
+          "label": "Charging Revenue ($)",
+          "data": [3000, 3500, 2800, 4000, 4500, 5000, 5500],
+          "backgroundColor": "#6366F1"
+        },
+        {
+          "label": "Maintenance Cost ($)",
+          "data": [2000, 2500, 1800, 3000, 3500, 4000, 4500],
+          "backgroundColor": "#F59E0B"
+        }
+      ]
+    },
+    "visitorAnalytics": {
+      "labels": ["Model A", "Model B", "Model C", "Model D"],
+      "datasets": [
+        {
+          "data": [500, 600, 700, 200],
+          "backgroundColor": ["#6366F1", "#10B981", "#F59E0B", "#EF4444"]
+        }
+      ]
+    },
+    "topChannels": [
+      { "source": "Website", "visitors": 4000, "revenues": 76000, "sales": 690, "conversion": "5.1%" },
+      { "source": "App", "visitors": 3000, "revenues": 58000, "sales": 520, "conversion": "4.2%" },
+      { "source": "Showroom", "visitors": 2000, "revenues": 45000, "sales": 400, "conversion": "3.5%" },
+      { "source": "Social Media", "visitors": 1500, "revenues": 35000, "sales": 350, "conversion": "2.8%" }
+    ]
+  }
+  
